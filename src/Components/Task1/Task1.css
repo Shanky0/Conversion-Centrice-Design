@@ -1,0 +1,224 @@
+#mainContainer {
+    width: 100%;
+}
+
+#heroSection {
+    width: 100%;
+    background-color: #61a945;
+}
+
+#heroSection #logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heroSection #logo img {
+    width: 30vw;
+    height: 25vh;
+    cursor: pointer;
+}
+
+#subMainSection {
+    width: 85%;
+    margin: 3vh auto;
+    height: 63%;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#subMainSection #subMainText {
+    display: inline;
+    width: 50%;
+    padding: 2vh 4vw;
+    margin-top: 5vh;
+}
+
+#subMainText h3 {
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 1vw;
+}
+
+#prequalifyForm {
+    display: inline;
+    width: 60%;
+    padding: 2vh 1vw;
+    margin-top: 5vh;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #29700d;
+    border-radius: 1vh;
+}
+
+#prequalifyForm table,
+#prequalifyForm table tr {
+    padding: 0;
+    width: 100%;
+}
+
+#prequalifyForm table tr td input {
+    width: 100%;
+    font-size: 1.3vw;
+    padding: 1vh;
+    border-radius: 1vh;
+    outline: .2vh;
+}
+
+#prequalifyForm table tr td {
+    padding: 1vh 2vh 1vh 0;
+}
+
+input[type="radio" i] {
+    width: 2vw;
+    cursor: pointer;
+    height: 1vw;
+}
+
+.btn {
+    margin-top: 3vh;
+    font-size: 1.5vw;
+    padding: 1vh 2vw;
+    letter-spacing: 0;
+    background-color: rgb(223, 13, 142);
+    color: white;
+    border-radius: 1vh;
+    cursor: pointer;
+    margin-bottom: 2vh;
+}
+#advantageSection{
+    margin: 5vh;
+}
+
+#advantageList {
+    width: 100%;
+    margin: auto;
+    padding: 7vh 4vh;
+}
+
+#advantageList h3 {
+    font-size: 1.8vw;
+    margin: 1vh 0;
+    font-weight: 600;
+}
+
+#advantageList p {
+    font-size: 1vw;
+    margin: 1vh 0;
+}
+
+#advantageCards {
+    width: 100%;
+    margin-left: 5%;
+}
+
+#testimonialContainer {
+    width: 80%;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonialContainer img {
+    width: 15vh;
+    height: 15vh;
+    margin: 3vh;
+    border-radius: 50%;
+}
+
+#testimonialContainer h4 {
+    text-align: center;
+    margin: 1.5vh;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+#testimonialContainer h3 {
+    font-size: 1.7vw;
+}
+
+
+#reasonSection {
+    width: 100%;
+    padding: 7vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#reasonSection h1{
+    padding: 7vh;
+    font-size: 2.8vw;
+    color: gray;
+}
+#reasonSection div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#reasonSection button{
+    font-size: 1.5vw;
+    padding: 1vh 4vh;
+    text-transform: uppercase;
+    background-color: rgb(240, 87, 113);
+    word-spacing: 0;
+    color: white;
+    margin: 5vh 0;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+
+.reasonContainer {
+    width: 17%;
+    height: 25vh;
+    background-color: #61a945;
+    text-align: center;
+}
+
+.reasonContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+    justify-content: center;
+}
+
+.reasonContainer i {
+    font-size: 2.3vw;
+    color: white;
+}
+.reasonContainer h3 {
+    margin-top: 3vh;
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: white;
+}
+
+#testimonialSection{
+    width: 100%;
+    padding: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #61a945;
+    color: white;
+}
+#footerContainer{
+    width: 100%;
+    padding: 3vh;
+    background-color: rgb(25, 33, 44);
+}
+#footerContainer>div{
+    width: 85%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
